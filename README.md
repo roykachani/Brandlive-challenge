@@ -6,10 +6,10 @@ Please prepare a JavaScript script that will create an object, where, after ente
 
 Visit page to run the script [Click!](https://www.venex.com.ar/)
 
-## Get started
+## Getting started
 
     1 Visit a product in the online store.
-    2 Open the browser console and type the script.
+    2 Open the browser console and type the script in the index.js file.
     3 Execute the script.
     4 Check the localStorage in application info with key "productsVisited".
 
