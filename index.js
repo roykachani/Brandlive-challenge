@@ -10,7 +10,8 @@ visit the Page to run the script ---> https://www.venex.com.ar/
 */
 
 function saveProductInfo() {
-  let productsVisited = JSON.parse(localStorage.getItem('productInfo')) || {};
+  let productsVisited =
+    JSON.parse(localStorage.getItem('productsVisited')) || {};
   //   console.log(productInfo); //products in localStorage
 
   // Get the product URL, photo, name, prices, model,description
@@ -46,6 +47,9 @@ function saveProductInfo() {
 
     // console.log(productInfo[product]); //product
     // Save the object in localStorage
-    return localStorage.setItem('productInfo', JSON.stringify(productsVisited));
+    return localStorage.setItem(
+      'productsVisited',
+      JSON.stringify(productsVisited)
+    );
   }
 }
